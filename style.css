@@ -28,14 +28,7 @@ h1 {
 .grid-element {
     background-color: rgb(34, 36, 42);
     border-radius: 20%;
-}
-
-.colored {
-    background-color: pink;
-}
-
-.grid-element:hover {
-    background-color: rgb(76, 164, 155);
+    opacity: 0;
 }
 
 #reset {
