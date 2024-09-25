@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(34, 36, 42);
+}
+
+h1 {
+    color: rgb(247, 247, 248);
+    text-align: center;
+}
+
+#container {
+    background-color: rgb(30, 32, 37);
+    border-radius: 10px;
+    padding: 10px 8px 10px 10px;
+
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.grid-element {
+    background-color: rgb(34, 36, 42);
+    width: calc((600px / 16) - 2px);
+    height: calc((600px / 16) - 2px);
+}
